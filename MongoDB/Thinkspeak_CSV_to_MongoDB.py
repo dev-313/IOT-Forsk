@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 26 17:09:38 2018
-
-@author: Kunal
-"""
-
 import json
 import urllib2
 import pandas as pd
@@ -18,10 +11,10 @@ client = MongoClient('localhost', 27017)
 my_db = client.Thinkspeak
 
 # Name of the CSV file exported from Thinkspeak Server
-csv_file = "feeds(3).csv"
+csv_file = "feeds.csv"
 
 # Credentials for SMS service
-sms_ph_number = "9928492120"    # Number to send SMS alert to
+sms_ph_number = "7976759710"    # Number to send SMS alert to
 
 # range for Temperature 
 temp_uppr_limit = 40

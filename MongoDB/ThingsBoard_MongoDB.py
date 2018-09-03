@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Feb 27 18:50:48 2018
-
-@author: hp
-"""
-
 import json
 import urllib2
 from datetime import datetime
@@ -30,7 +23,7 @@ my_db = mongo_client.ThingsBoard
 my_db.drop_collection("Data")  # Deleting any Previous Collection(Data)
 
 # Credentials for SMS service
-sms_ph_number = "9928492120"    # Number to send SMS alert to
+sms_ph_number = "7976759710"    # Number to send SMS alert to
 
 # range for Temperature 
 temp_uppr_limit = 40
